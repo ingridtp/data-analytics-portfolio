@@ -5,16 +5,16 @@ El proyecto simula un **entorno empresarial en el sector bancario**, donde el eq
 ## Roles del equipo
 
 - **Analista de Finanzas y Riesgo Crediticio**  
-  - Ingrid Tobío Pérez - [Linkedin](https://www.linkedin.com/in/ingrid-tobio/)  
-  - Bárbara Junqueira –  [Linkedin](https://www.linkedin.com/in/junqueirabs/)
+  - Ingrid Tobío Pérez - [LinkedIn](https://www.linkedin.com/in/ingrid-tobio/)  
+  - Bárbara Junqueira –  [LinkedIn](https://www.linkedin.com/in/junqueirabs/)
 
 - **Analista de Marketing y Comunicación**  
-  - Carlos Moreno García – [Linkedin](https://www.linkedin.com/in/morenogarciacarlos/)  
-  - Pau León Ozón – [Linkedin](https://www.linkedin.com/in/pauleonozon/)  
+  - Carlos Moreno García – [LinkedIn](https://www.linkedin.com/in/morenogarciacarlos/)  
+  - Pau León Ozón – [LinkedIn](https://www.linkedin.com/in/pauleonozon/)  
 
 - **Perfil del Cliente**  
-  - Favila Valdés-Bango Martín – [Linkedin](https://www.linkedin.com/in/favila-vald%C3%A9s-bango-mart%C3%ADn-9ab146271/)
-  - Maeloc Valdés Moutinho – [Linkedin](https://www.linkedin.com/in/maeloc-valdes/)  
+  - Favila Valdés-Bango Martín – [LinkedIn](https://www.linkedin.com/in/favila-vald%C3%A9s-bango-mart%C3%ADn-9ab146271/)
+  - Maeloc Valdés Moutinho – [LinkedIn](https://www.linkedin.com/in/maeloc-valdes/)  
 
 # Objetivos del proyecto
 
@@ -85,30 +85,32 @@ Todos los archivos deben seguir el patrón: **banca_DD.MM_XX**
   - Carpetas **por roles** (`Analysis/Finance`, `Analysis/Marketing`, `Analysis/Customer`) contienen análisis y resultados específicos de cada área.  
 
 Itacademy_business_simulation/
-├── [`Analysis/`](./Analysis/)                      # Trabajo de análisis de datos por área. Carpetas con primera letra en mayúscula, archivos en minúsculas.
-│   ├── [`Finance/`](./Analysis/Finance/)          # Análisis de finanzas y riesgo crediticio.
-│   │   ├── [`Diagrams/`](./Analysis/Finance/Diagrams/)        # Diagramas y visualizaciones financieras.
-│   │   ├── [`Notebooks/`](./Analysis/Finance/Notebooks/)      # Notebooks de Python para análisis financiero.
-│   │   ├── [`Pbix/`](./Analysis/Finance/Pbix/)                # Dashboards en Power BI de finanzas y riesgo crediticio.
-│   │   └── [`Summaries/`](./Analysis/Finance/Summaries/)      # Resúmenes de construcción del score de riesgo y segmentación de clientes.
+├── Analysis/                      # Trabajo de análisis de datos por área. Carpetas con primera letra en mayúscula, archivos en minúsculas.
+│   ├── Finance/                   # Análisis de finanzas y riesgo crediticio.
+│   │   ├── Diagrams/              # Diagramas y visualizaciones financieras.
+│   │   ├── Notebooks/             # Notebooks de Python para análisis financiero.
+│   │   ├── Pbix/                  # Dashboards en Power BI de finanzas y riesgo crediticio.
+│   │   └── Summaries/             # Resúmenes de construcción del score de riesgo y segmentación de clientes.
 │   │
-│   ├── [`Marketing/`](./Analysis/Marketing/)      # Análisis de marketing y comunicación.
-│   │   ├── [`Diagrams/`](./Analysis/Marketing/Diagrams/)      # Diagramas y visualizaciones de marketing.
-│   │   ├── [`Notebooks/`](./Analysis/Marketing/Notebooks/)    # Notebooks de Python para análisis de marketing.
-│   │   └── [`Pbix/`](./Analysis/Marketing/Pbix/)              # Dashboards en Power BI de marketing.
+│   ├── Marketing/                 # Análisis de marketing y comunicación.
+│   │   ├── Diagrams/              # Diagramas y visualizaciones de marketing.
+│   │   ├── Notebooks/             # Notebooks de Python para análisis de marketing.
+│   │   └── Pbix/                  # Dashboards en Power BI de marketing.
 │   │
-│   └── [`Customer/`](./Analysis/Customer/)        # Análisis del perfil de cliente.
-│       ├── [`Animations/`](./Analysis/Customer/Animations/)   # Animaciones y visualizaciones dinámicas de clientes.
-│       ├── [`Data_processed/`](./Analysis/Customer/Data_processed/) # Datos procesados para análisis de clientes.
-│       ├── [`Notebooks/`](./Analysis/Customer/Notebooks/)     # Notebooks de Python para análisis del perfil de clientes.
-│       └── [`Pbix/`](./Analysis/Customer/Pbix/)              # Dashboards en Power BI del perfil de clientes.
+│   └── Customer/                  # Análisis del perfil de cliente.
+│       ├── Animations/            # Animaciones y visualizaciones dinámicas de clientes.
+│       ├── Data_processed/        # Datos procesados para análisis de clientes.
+│       ├── Notebooks/             # Notebooks de Python para análisis del perfil de clientes.
+│       └── Pbix/                  # Dashboards en Power BI del perfil de clientes.
 │
-├── [`Data/`](./Data/)                            # Carpeta de datasets originales y procesados.
-├── [`Results/`](./Results/)                      # Carpeta de resultados finales.
-│   ├── [`KPIs/`](./Results/KPIs/)                # Indicadores clave de desempeño.
-│   └── [`Presentations/`](./Results/Presentations/) # Presentaciones de resultados generales.
-├── [`Scripts/`](./Scripts/)                      # Scripts de limpieza, transformación y análisis de datos.
-└── [`README.md`](./README.md)                    # Documentación general del proyecto.
+├── Data/                          # Carpeta de datasets originales y procesados.
+├── Results/                       # Carpeta de resultados finales.
+│   ├── KPIs/                      # Indicadores clave de desempeño.
+│   └── Presentations/             # Presentaciones de resultados generales.
+├── Scripts/                       # Scripts de limpieza, transformación y análisis de datos.
+├── README.md                      # Documentación general del proyecto.
+└── LICENSE                        # Licencia MIT del proyecto.
+
 
 # Tecnología utilizada
 
@@ -146,11 +148,3 @@ Este proyecto se distribuye bajo la licencia **MIT License**.
 Esto permite que cualquier persona pueda usar, copiar, modificar y distribuir el proyecto, siempre citando al autor original.  
 
 Para más detalles, consulta el archivo [`LICENSE`](./LICENSE) en el repositorio.
-
-
-
-
-
-
-
-
