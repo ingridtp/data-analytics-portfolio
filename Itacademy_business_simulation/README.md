@@ -85,32 +85,31 @@ Todos los archivos deben seguir el patrón: **banca_DD.MM_XX**
   - Carpetas **por roles** (`Analysis/Finance`, `Analysis/Marketing`, `Analysis/Customer`) contienen análisis y resultados específicos de cada área.  
 
 Itacademy_business_simulation/
-├── Analysis/                      # Trabajo de análisis de datos por área. Carpetas con primera letra en mayúscula, archivos en minúsculas.
-│   ├── Finance/                   # Análisis de finanzas y riesgo crediticio.
-│   │   ├── Diagrams/              # Diagramas y visualizaciones financieras.
-│   │   ├── Notebooks/             # Notebooks de Python para análisis financiero.
-│   │   ├── Pbix/                  # Dashboards en Power BI de finanzas y riesgo crediticio.
-│   │   └── Summaries/             # Resúmenes de construcción del score de riesgo y segmentación de clientes.
+├── Analysis/                          # Trabajo de análisis de datos por área (Finance, Marketing, Customer)
+│   ├── Finance/
+│   │   ├── Diagrams/                  # Diagramas y visualizaciones financieras
+│   │   ├── Notebooks/                 # Notebooks de Python para análisis financiero
+│   │   ├── Pbix/                       # Dashboards en Power BI de finanzas y riesgo crediticio
+│   │   └── Summaries/                 # Resúmenes y construcción del score de riesgo financiero
 │   │
-│   ├── Marketing/                 # Análisis de marketing y comunicación.
-│   │   ├── Diagrams/              # Diagramas y visualizaciones de marketing.
-│   │   ├── Notebooks/             # Notebooks de Python para análisis de marketing.
-│   │   └── Pbix/                  # Dashboards en Power BI de marketing.
+│   ├── Marketing/
+│   │   ├── Diagrams/                  # Diagramas y visualizaciones de marketing
+│   │   ├── Notebooks/                 # Notebooks de Python para análisis de marketing
+│   │   └── Pbix/                       # Dashboards en Power BI de marketing
 │   │
-│   └── Customer/                  # Análisis del perfil de cliente.
-│       ├── Animations/            # Animaciones y visualizaciones dinámicas de clientes.
-│       ├── Data_processed/        # Datos procesados para análisis de clientes.
-│       ├── Notebooks/             # Notebooks de Python para análisis del perfil de clientes.
-│       └── Pbix/                  # Dashboards en Power BI del perfil de clientes.
+│   └── Customer/
+│       ├── Animations/                # Animaciones y visualizaciones dinámicas de clientes
+│       ├── Data_processed/            # Datos procesados para análisis de clientes
+│       ├── Notebooks/                 # Notebooks de Python para análisis del perfil de clientes
+│       └── Pbix/                       # Dashboards en Power BI del perfil de clientes
 │
-├── Data/                          # Carpeta de datasets originales y procesados.
-├── Results/                       # Carpeta de resultados finales.
-│   ├── KPIs/                      # Indicadores clave de desempeño.
-│   └── Presentations/             # Presentaciones de resultados generales.
-├── Scripts/                       # Scripts de limpieza, transformación y análisis de datos.
-├── README.md                      # Documentación general del proyecto.
-└── LICENSE                        # Licencia MIT del proyecto.
-
+├── Data/                              # Carpeta de datasets originales y procesados (trabajo conjunto)
+├── Results/                           # Resultados finales (KPIs y presentaciones)
+│   ├── KPIs/                          # Indicadores clave de desempeño
+│   └── Presentations/                  # Presentaciones de resultados generales
+├── Scripts/                            # Scripts de limpieza, transformación y análisis de datos (trabajo conjunto)
+├── README.md                           # Documentación general del proyecto
+└── LICENSE                             # Licencia MIT del proyecto
 
 # Tecnología utilizada
 
