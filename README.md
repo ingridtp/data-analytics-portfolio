@@ -8,28 +8,6 @@ Algunos proyectos fueron desarrollados individualmente, mientras que otros corre
 
 ## Proyectos
 
-### Datató del Saló de l’Ocupació 2025
-
-**Evento:** Datató 2025 – Barcelona Activa & Mobile World Capital  
-**Tema:** Consumo de Agua y Presión Hídrica en el Área Metropolitana de Barcelona  
-
-**Contexto:**  
-El análisis se desarrolló en el marco del Datató 2025, centrado en el consumo de agua y presión hídrica en el Área Metropolitana de Barcelona, evaluando patrones según tipo de uso y distrito.
-
-**Descripción:**  
-Análisis descriptivo del consumo de agua en 2023, clasificando patrones por tipo de uso (industrial, doméstico y comercial) y por distrito.
-**Duración**: 10 horas
-
-**Herramientas:** Power BI | Python  
-
-**Licencia:** MIT (excepto datasets externos de Aigües de Barcelona)  
-
-**Enlaces importantes:** 
-
-**Enlaces importantes:**  
-- [Carpeta del proyecto](./employment-fair-datathon-2025/)  
-- [Dashboards en Power BI](./employment-fair-datathon-2025/analysis/)  
-
 ---
 
 ### ToBio Life – Proyecto Final (IT Academy Bootcamp)
@@ -54,6 +32,30 @@ Análisis de datos de operación piloto, construcción de modelos relacionales y
 - [Informe final del proyecto](./tobiolife-analytics/Informe/)  
 - [Presentación final](./tobiolife-analytics/Presentacion/)  
 - [Scripts ETL en Python](./tobiolife-analytics/Data/tobiolife_etl/)
+
+---
+
+### Datató del Saló de l’Ocupació 2025
+
+**Evento:** Datató 2025 – Barcelona Activa & Mobile World Capital  
+**Tema:** Consumo de Agua y Presión Hídrica en el Área Metropolitana de Barcelona  
+
+**Contexto:**  
+El análisis se desarrolló en el marco del Datató 2025, centrado en el consumo de agua y presión hídrica en el Área Metropolitana de Barcelona, evaluando patrones según tipo de uso y distrito.
+
+**Descripción:**  
+Análisis descriptivo del consumo de agua en 2023, clasificando patrones por tipo de uso (industrial, doméstico y comercial) y por distrito.
+**Duración**: 10 horas
+
+**Herramientas:** Power BI | Python  
+
+**Licencia:** MIT (excepto datasets externos de Aigües de Barcelona)  
+
+**Enlaces importantes:** 
+
+**Enlaces importantes:**  
+- [Carpeta del proyecto](./employment-fair-datathon-2025/)  
+- [Dashboards en Power BI](./employment-fair-datathon-2025/analysis/)  
 
 ---
 
@@ -86,7 +88,6 @@ Desarrollo de un flujo de análisis que soporta decisiones estratégicas en fina
 - [Dashboards y análisis de Finanzas](./itacademy-business-simulation/Analysis/Finance/Pbix/)  
 - [Notebooks financieros](./itacademy-business-simulation/Analysis/Finance/Notebooks/)
 - [Score de riesgo financiero](./itacademy-business-simulation/Analysis/Finance/Summaries)  
-
 
 ---
 
