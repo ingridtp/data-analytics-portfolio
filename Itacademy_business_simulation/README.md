@@ -108,10 +108,13 @@ Itacademy_business_simulation/
 │       └── Pbix/                 # Dashboards en Power BI del perfil de clientes
 │
 ├── Data/                         # Carpeta de datasets originales y procesados (trabajo conjunto)
+│
 ├── Results/                      # Resultados finales (KPIs y presentaciones)
 │   ├── KPIs/                     # Indicadores clave de desempeño
 │   └── Presentations/            # Presentaciones de resultados generales
+│
 ├── Scripts/                      # Scripts de limpieza, transformación y análisis de datos (trabajo conjunto)
+│
 ├── README.md                      # Documentación general del proyecto
 └── LICENSE                        # Licencia MIT del proyecto
 ```
