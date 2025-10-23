@@ -51,8 +51,6 @@ Análisis descriptivo del consumo de agua en 2023, clasificando patrones por tip
 
 **Licencia:** MIT (excepto datasets externos de Aigües de Barcelona)  
 
-**Enlaces importantes:** 
-
 **Enlaces importantes:**  
 - [Carpeta del proyecto](./employment-fair-datathon-2025/)  
 - [Dashboards en Power BI](./employment-fair-datathon-2025/analysis/)  
@@ -73,8 +71,8 @@ El proyecto simuló un entorno empresarial real en el sector bancario, permitien
 Desarrollo de un flujo de análisis que soporta decisiones estratégicas en finanzas, marketing y perfil de clientes, incluyendo score de riesgo financiero, optimización de campañas y segmentación de clientes. 
 **Duración:** 4 semanas.
 
-**Enfoques principales:**
-- **Finanzas y riesgo crediticio:** Score de riesgo financiero (mi área principal)  
+**Enfoques principales por roles:**
+- **Finanzas y riesgo crediticio:** Score de riesgo financiero (área en la que trabajé)  
 - **Marketing:** Optimización de frecuencia y tipo de contacto (trabajo de equipo)  
 - **Clientes:** Segmentación de comportamiento y perfil demográfico (trabajo de equipo)  
 
