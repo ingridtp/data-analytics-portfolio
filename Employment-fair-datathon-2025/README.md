@@ -47,15 +47,17 @@ Análisis descriptivo del consumo de agua en 2023 en el Área Metropolitana de B
 
 ## Campos del dataset principal
 
-| Campo original            | Nombre usado             | Descripción                                  |
-|---------------------------|-------------------------|---------------------------------------------|
-| Secció censal             | **Censo**               | Sección censal                              |
-| Districte                 | **Distrito**            | Distrito del consumo                         |
-| Municipi                  | **Municipio**           | Municipio del consumo                        |
-| Data                      | **Fecha**               | Fecha del consumo                            |
-| Ús                        | **Uso**                 | Tipo de uso: Industrial / Comercial / Doméstico |
-| Nombre de comptadors      | **Número de contadores**| Número de contadores registrados            |
-| Consum acumulat (L/dia)  | **Consumo acumulado (L/día)** | Consumo diario acumulado en litros      |
+## Campos del dataset principal
+
+| Campo original                             | Nombre usado             | Descripción                                  |
+|-------------------------------------------|-------------------------|---------------------------------------------|
+| Secció censal / Sección censal / Census section | **Censo**               | Sección censal                              |
+| Districte / Distrito / District            | **Distrito**            | Distrito del consumo                         |
+| Municipi / Municipio / Municipality        | **Municipio**           | Municipio del consumo                        |
+| Data / Fecha / Date                        | **Fecha**               | Fecha del consumo                            |
+| Ús / Uso / Use                             | **Uso**                 | Tipo de uso: Industrial / Comercial / Doméstico |
+| Nombre de comptadors / Número de contadores / Number of meters | **Número de contadores**| Número de contadores registrados            |
+| Consum acumulat (L/dia) / Consumo acumulado (L/día) / Accumulated consumption (L/day) | **Consumo acumulado (L/día)** | Consumo diario acumulado en litros |
 
 ## Herramientas usadas
 
@@ -79,26 +81,44 @@ Employment-fair-datathon-2025/
 └── LICENSE                         # Licencia del proyecto (por ejemplo, MIT)
 
 ```
+## Guía rápida del archivo Power BI
 
+El análisis de consumo de agua en el Área Metropolitana de Barcelona está disponible en el archivo de Power BI: [Analisis_consumo_agua.pbix](analysis/Analisis_consumo_agua.pbix)
 
-## Conclusiones datos analizados:
+### Descripción de las pestañas
+1. **Consumo general**: Visualización del consumo total de agua en el área metropolitana, agregando todos los tipos de uso.  
+2. **Consumo general por distrito**: Comparativa del consumo total por distrito, facilitando la identificación de zonas con mayor demanda.  
+3. **Consumo Industrial por distrito**: Visualización del consumo industrial por cada distrito.  
+4. **Consumo doméstico por distrito**: Visualización del consumo doméstico por distrito.  
+5. **Consumo comercial por distrito**: Visualización del consumo comercial por distrito.
 
-En el Power BI se puede ver el [análisis de los datos](Analisis_consumo_agua.pbix).
+## Conclusiones del análisis descriptivo
 
-Observamos que el mayor consumo es el Industrial, excepto en los meses de febrero a abril que fué el doméstico.
+El análisis de los datos en Power BI ([ver archivo](analysis/Analisis_consumo_agua.pbix)) permite identificar patrones clave en el consumo de agua durante 2023:
 
-El distrito que más aporta al consumo industrial es Sants-Montjuic (Zona Franca...)
+- **Consumo general**: Más del **50%** del consumo corresponde al sector **Industrial**, que es el mayor consumidor durante la mayoría del año, excepto entre febrero y abril, cuando predomina el consumo **doméstico**.  
+- **Distritos con mayor consumo total**: Sants-Montjuïc, Eixample, Ciutat Vella, Sant Martí y Horta-Guinardó concentran más del **70%** del consumo total, siendo **Sants-Montjuïc** el distrito con mayor consumo.  
 
-El que aporta más al consumo doméstico es Ciutat Vella.
+- **Consumo industrial**: Sants-Montjuïc, Eixample, Ciutat Vella y Sant Martí representan más del **65%** del consumo industrial, con **Sants-Montjuïc** concentrando el **25%** del total.  
 
-Y el Eixample es el que más aporta al consumo comercial.
+- **Consumo doméstico**: Ciutat Vella, Sant Martí, Eixample y Horta concentran más del **65%** del consumo doméstico, siendo **Ciutat Vella** el distrito con mayor consumo (**21%**). Se observan consumos anómalos en **febrero, marzo y abril** en Ciutat Vella, y en abril en Eixample.  
 
-Observamos una caída muy importante del consumo doméstico hacia abril de 2023 (distritos d'Eixample y Ciutat Vella). Justo coincide con la sequía y con la activación de excepcionalidad de marzo 2023:
+- **Consumo comercial**: Eixample, Ciutat Vella, Sant Martí y Sants concentran más del **60%** del consumo comercial, con **Eixample** liderando con el **27%**.
 
-https://www.totbarcelona.cat/es/sociedad/los-hogares-de-barcelona-reducen-el-consumo-agua-en-plena-sequia-438255/#:~:text=Cuando%20el%20marzo%20del%202023,litro%20menos%20que%20en%20marzo
+- **Impacto de la sequía y medidas aplicadas**: Se observa una caída notable del consumo doméstico en abril de 2023, coincidiendo con la entrada en vigor de medidas excepcionales de ahorro de agua ([fuente](https://www.totbarcelona.cat/es/sociedad/los-hogares-de-barcelona-reducen-el-consumo-agua-en-plena-sequia-438255/)).
 
-![Noticia sequía](https://github.com/cvilafer/Datato_Equipo1_Reto3/blob/main/noticia_sequia1.png)
+> Estas conclusiones corresponden al análisis descriptivo. Para un **diagnóstico más profundo**, se recomienda cruzar con otros datos (climáticos, demográficos, industriales) para asociar posibles causas. De manera preliminar, los patrones observados se pueden relacionar con la aplicación de las medidas de abril 2023.
 
-![Agua cuencas internas Catalunya](https://github.com/cvilafer/Datato_Equipo1_Reto3/blob/main/agua_cuencas_internas_catalunya.png)
+## Licencia y condiciones de uso
+
+### Licencia del repositorio
+El código, scripts y documentación de este repositorio están bajo la **Licencia MIT**. Esto permite su uso, copia, modificación y distribución, siempre que se mantenga la atribución original.
+
+### Condiciones de uso de los datos y archivos de Power BI
+- Los datasets y el archivo de Power BI ([Analisis_consumo_agua.pbix](analysis/Analisis_consumo_agua.pbix)) **no están cubiertos por la Licencia MIT**, ya que son proporcionados por terceros (Aigües de Barcelona).  
+- Estos archivos son **solo para análisis y visualización interna del proyecto**.  
+- Se pueden explorar los datos, filtrar y exportar visualizaciones, **respetando la confidencialidad de los datos**.  
+- No se permite redistribuir los datos originales ni el archivo de Power BI sin autorización de Aigües de Barcelona.  
+- Para más información y consulta de los datos originales, ver [Aigües de Barcelona – Datos Abiertos](https://www.abdatachallenge.cat/).
 
 
