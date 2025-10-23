@@ -25,40 +25,42 @@ Análisis descriptivo del consumo de agua en 2023, clasificando patrones por tip
 **Licencia:** MIT (excepto datasets externos de Aigües de Barcelona)  
 
 **Enlaces importantes:** 
-- [Carpeta del proyecto](./employment-fair-datathon-2025/)
-- Dashboard Power BI – [Analisis_consumo_agua.pbix](./employment-fair-datathon-2025/analysis/Analisis_consumo_agua.pbix)
+
+**Enlaces importantes:**  
+- [Carpeta del proyecto](./employment-fair-datathon-2025/)  
+- [Dashboards en Power BI](./employment-fair-datathon-2025/analysis/)  
 
 ---
 
 ### IT Academy Business Simulation – Sector Bancario
 
-**Escenario:** Practicas profesionales – Simulador empresarial (IT Academy Bootcamp - Nivel III)
+**Escenario:** Prácticas profesionales – Simulador empresarial (IT Academy Bootcamp - Nivel III)  
 **Tema:** Simulación empresarial aplicada al análisis de datos en el sector financiero  
 
 **Contexto:**  
 El proyecto simuló un entorno empresarial real en el sector bancario, permitiendo analizar clientes, riesgos financieros y marketing. Cada integrante del equipo asumió un rol específico para desarrollar análisis y dashboards de apoyo a la toma de decisiones.
 
-**Rol de Ingrid Tobío:** Analista de Finanzas y Riesgo Crediticio (trabajo compartido con Barbara Junqueira)
+**Rol de Ingrid Tobío:** Analista de Finanzas y Riesgo Crediticio (trabajo compartido con Barbara Junqueira)  
 
 **Descripción:**  
-Desarrollo de un flujo de análisis que soporta decisiones estratégicas en finanzas, marketing y perfil de clientes, incluyendo score de riesgo financiero, optimización de campañas y segmentación de clientes.
-**Duración**: 4 semanas
+Desarrollo de un flujo de análisis que soporta decisiones estratégicas en finanzas, marketing y perfil de clientes, incluyendo score de riesgo financiero, optimización de campañas y segmentación de clientes. Duración: 4 semanas.
 
 **Enfoques principales:**
-- Finanzas y riesgo crediticio: Score de riesgo financiero (mi área principal)  
-- Marketing: Optimización de frecuencia y tipo de contacto (trabajo de equipo)  
-- Clientes: Segmentación de comportamiento y perfil demográfico (trabajo de equipo)
+- **Finanzas y riesgo crediticio:** Score de riesgo financiero (mi área principal)  
+- **Marketing:** Optimización de frecuencia y tipo de contacto (trabajo de equipo)  
+- **Clientes:** Segmentación de comportamiento y perfil demográfico (trabajo de equipo)  
 
-**Herramientas:** Python | Power BI | Tableau | SQL | Jupyter Notebooks
+**Herramientas:** Python | Power BI | Tableau | SQL | Jupyter Notebooks  
 
-**Licencia:** MIT (excepto datos de terceros, si aplica)
+**Licencia:** MIT (excepto datos de terceros, si aplica)  
 
 **Enlaces importantes:**
-- [Carpeta del proyecto](./itacademy_business_simulation/)
-- Presentaciones y reportes finales: `Results/Presentations/`  
-- Dashboards y análisis de Finanzas: `Analysis/Finance/Pbix/`  
-- Notebooks y resúmenes financieros: `Analysis/Finance/Notebooks/` y `Analysis/Finance/Summaries/`  
-- Score de riesgo financiero: `Analysis/Finance/Summaries/score_riesgo_financiero.*`
+- [Carpeta del proyecto](./itacademy-business-simulation/)  
+- [Presentaciones y reportes finales](./itacademy-business-simulation/Results/Presentations/)  
+- [Dashboards y análisis de Finanzas](./itacademy-business-simulation/Analysis/Finance/Pbix/)  
+- [Notebooks financieros](./itacademy-business-simulation/Analysis/Finance/Notebooks/)
+- [Score de riesgo financiero](./itacademy-business-simulation/Analysis/Finance/Summaries)  
+
 
 ---
 
@@ -78,12 +80,12 @@ Análisis de datos de operación piloto, construcción de modelos relacionales y
 
 **Licencia:** Proyecto académico (no comercial)
 
-**Enlaces importantes:**
+**Enlaces importantes:**  
 - [Carpeta del proyecto](./tobiolife-analytics/)  
-- Dashboard Power BI: [PBI/Archivo Power BI](./tobiolife-analytics/PBI/)  
-- Informe final del proyecto: [Informe/Informe final](./tobiolife-analytics/Informe/)  
-- Presentación final: [Presentacion/Presentación final](./tobiolife-analytics/Presentacion/)  
-- Scripts ETL en Python: [Data/tobiolife_etl/](./tobiolife-analytics/Data/tobiolife_etl/)
+- [Dashboards y análisis Power BI](./tobiolife-analytics/PBI/)  
+- [Informe final del proyecto](./tobiolife-analytics/Informe/)  
+- [Presentación final](./tobiolife-analytics/Presentacion/)  
+- [Scripts ETL en Python](./tobiolife-analytics/Data/tobiolife_etl/)
 
 ---
 
