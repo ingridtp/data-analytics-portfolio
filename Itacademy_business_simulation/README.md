@@ -110,7 +110,6 @@ Itacademy_business_simulation/
 ├── [`Scripts/`](./Scripts/)                      # Scripts de limpieza, transformación y análisis de datos.
 └── [`README.md`](./README.md)                    # Documentación general del proyecto.
 
-
 # Tecnología utilizada
 
 El proyecto se desarrolló con herramientas orientadas al análisis de datos, visualización y generación de insights en el sector bancario:
