@@ -16,6 +16,8 @@ El proyecto simula un **entorno empresarial en el sector bancario**, donde el eq
   - Favila Valdés-Bango Martín – [LinkedIn](https://www.linkedin.com/in/favila-vald%C3%A9s-bango-mart%C3%ADn-9ab146271/)
   - Maeloc Valdés Moutinho – [LinkedIn](https://www.linkedin.com/in/maeloc-valdes/)  
 
+---
+
 # Objetivos del proyecto
 
 ## Objetivo general
@@ -46,6 +48,7 @@ El proyecto se desarrolló abordando una serie de **desafíos estratégicos** qu
   - ¿Cómo debe adaptarse la estrategia del negocio para alinearse con tendencias emergentes y maximizar oportunidades de mercado?  
   - ¿Es necesario ajustar las ofertas actuales o crear nuevas según cambios en comportamiento financiero y competencias a nivel nacional?
 
+---
 
 # Estructura y nomenclatura
 
@@ -82,8 +85,9 @@ Todos los archivos deben seguir el patrón: **banca_DD.MM_XX**
 
 - **Organización de carpetas:**  
   - Carpetas **generales** (`Data/`, `Results/`, `Scripts/`) contienen trabajo conjunto de todo el equipo.  
-  - Carpetas **por roles** (`Analysis/Finance`, `Analysis/Marketing`, `Analysis/Customer`) contienen análisis y resultados específicos de cada área.  
+  - Carpetas **por roles** (`Analysis/Finance`, `Analysis/Marketing`, `Analysis/Customer`) contienen análisis y resultados específicos de cada área. 
 
+```
 Itacademy_business_simulation/
 ├── Analysis/                     # Trabajo de análisis de datos por área (Finance, Marketing, Customer)
 │   ├── Finance/
@@ -110,6 +114,8 @@ Itacademy_business_simulation/
 ├── Scripts/                      # Scripts de limpieza, transformación y análisis de datos (trabajo conjunto)
 ├── README.md                      # Documentación general del proyecto
 └── LICENSE                        # Licencia MIT del proyecto
+```
+---
 
 # Tecnología utilizada
 
@@ -120,6 +126,8 @@ El proyecto se desarrolló con herramientas orientadas al análisis de datos, vi
 - **Tableau**: utilizado como herramienta de remplazo donde Power BI no estaba disponible por fallos del servidor.  
 - **SQL**: soporte para consultas y preparación de datos .  
 - **Jupyter Notebooks**: desarrollo de análisis exploratorio y documentación del flujo de trabajo.
+
+---
 
 # Guía de consulta rápida a carpetas mas relevantes
 
@@ -140,6 +148,8 @@ El proyecto se desarrolló con herramientas orientadas al análisis de datos, vi
   - [`Presentations/`](./Results/Presentations/) → Presentaciones de resultados generales.  
 - Revisar [`Scripts/`](./Scripts/) si quieres ejecutar limpieza o transformación de datos (trabajo conjunto).
 - Consultar [`Data/`](./Data/) para ver datasets originales y procesados (trabajo conjunto de todo el equipo).
+
+---
 
 # Licencia
 
