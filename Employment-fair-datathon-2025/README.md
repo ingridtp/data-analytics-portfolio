@@ -1,7 +1,16 @@
+# Datató del Saló de l’Ocupació 2025
+
+## Contexto del evento
+
+Este análisis fue desarrollado en el marco del **Datató del Saló de l’Ocupació 2025** en Barcelona, organizado por **IT Academy de Barcelona Activa** junto a **Mobile World Capital Barcelona**, como parte del **Mobile World Congress**.  
+
+El evento tuvo lugar los días **15 y 16 de octubre de 2025**. Durante la primera jornada (**15 de octubre, de 9:00 a 19:00**), los participantes trabajaron en el desarrollo de los retos propuestos, seleccionando uno de los tres retos disponibles. Nuestro equipo decidió abordar **el Reto 3**, centrado en el análisis de consumo de agua y presión hídrica en el Área Metropolitana de Barcelona.
+
+---
+
 # Reto 3: Consumo de Agua y Presión Hídrica en el Área Metropolitana de Barcelona
 
 ## Tópico: Medio ambiente y sostenibilidad
-
 ## Agenda 2030: ODS 6 – Agua limpia y saneamiento | ODS 13 – Acción por el clima
 
 ## Descripción:
@@ -28,31 +37,31 @@ A partir de los datos disponibles, identifica zonas y períodos con consumos ele
 
 3. [Datos climatológicos](https://www.aemet.es/ca/serviciosclimaticos/datosclimatologicos) de AEMET (Agencia Estatal de Meteorología).
 
-------------------------------
+---
 
-## Bases de datos usadas:
+# Desarrollo
 
-Hemos descargado el dataset de la opción 1. Contiene los datos del municipio de Barcelona para 2023. Se puede ver el fichero [Aquí](https://github.com/cvilafer/Datato_Equipo1_Reto3/blob/main/Consumo_agua.parquet)
+Análisis descriptivo del consumo de agua en el Área Metropolitana de Barcelona durante 2023, evaluando patrones según el tipo de uso (doméstico, comercial e industrial) y facilitando su visualización en Power BI.
 
-Lo hemos cargado desde el fichero .parquet en python a un dataframe de pandas y lo hemos exportado a un [excel](https://github.com/cvilafer/Datato_Equipo1_Reto3/blob/main/Consumo_agua.xlsx) para poderlo analizar en Power BI.
+## Bases de datos usadas
 
-De la opción 2 del ACA hemos descargado el gráfico del estado de los embalses desde 2020 hasta 2023 para ver la evolución de la sequía.
+- **Consumo de agua 2023 (Barcelona)**: 
+Dataset de Aigües de Barcelona ([ver archivo](https://github.com/cvilafer/Datato_Equipo1_Reto3/blob/main/Consumo_agua.parquet)), exportado a  CSV para su análisis y visualización en Power BI.
 
-## Campos del dataset:
+- **Embalses de Cataluña 2020-2023 (ACA)**: Gráficos del estado de los embalses para analizar la evolución de la sequía.
 
-Secció censal/Sección censal/Census section: Se ha renombrado el nombre a **Censo** y contiene la sección censal
+## Campos del dataset principal
 
-Districte/Distrito/District: Se ha renombrado el nombre a **Distrito** y contiene el Distrito del consumo
+| Campo original | Nombre usado | Descripción |
+|----------------|-------------|------------|
+| Secció censal / Census section | **Censo** | Sección censal |
+| Districte / District | **Distrito** | Distrito del consumo |
+| Municipi / Municipality | **Municipio** | Municipio del consumo |
+| Data / Date | **Fecha** | Fecha del consumo |
+| Ús / Use | **Uso** | Tipo de uso: Industrial / Comercial / Doméstico |
+| Nombre de comptadors / Number of meters | **Número de contadores** | Número de contadores registrados |
+| Consum acumulat (L/dia) / Accumulated consumption | **Consumo acumulado (L/día)** | Consumo diario acumulado en litros |
 
-Municipi/Municipio/Municipality: Se ha renombrado el nombre a **Municipio** y contiene el Municipio del consumo
-
-Data/Fecha/Date: Se ha renombrado el nombre a **Fecha** y contiene la fecha del consumo
-
-Ús/Uso/Use: Se ha renombrado el nombre a **Uso** y contiene el tipo de uso Industrial/Comercial/Doméstico
-
-Nombre de comptadors/Número de contadores/Number of meters: Se ha renombrado el nombre a **Número de contadores** y contiene el número de contadores que hay
-
-Consum acumulat (L/dia)/Consumo acumulado (L/día)/Accumulated consumption (L/day): Se ha renombrado a **Consumo acumulado (L/día)** y contiene el consumo en litros acumulados del día
 
 ## Herramientas usadas para análisis:
 
