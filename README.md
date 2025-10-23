@@ -6,7 +6,7 @@ Algunos proyectos fueron desarrollados individualmente, mientras que otros corre
 
 ---
 
-## Proyectos Destacados
+## Proyectos
 
 ### Datató del Saló de l’Ocupació 2025
 
@@ -32,6 +32,31 @@ Análisis descriptivo del consumo de agua en 2023, clasificando patrones por tip
 
 ---
 
+### ToBio Life – Proyecto Final (IT Academy Bootcamp)
+
+**Escenario:** Proyecto final - Especialización (IT Academy Bootcamp - Nivel II)
+**Tema:** Análisis de operación piloto de ToBio Life  
+
+**Contexto:**  
+Proyecto individual basado en los dos primeros meses de operación de ToBio Life, una marca de productos artesanales y naturales, incluyendo modelado relacional y analítico, procesos ETL y visualización de resultados.
+
+**Descripción:**  
+Análisis de datos de operación piloto, construcción de modelos relacionales y analíticos, creación de dashboards en Power BI y generación de reportes
+**Duración**: 2 semanas
+
+**Herramientas:** Python | SQL | Power BI | DAX
+
+**Licencia:** Proyecto académico (no comercial)
+
+**Enlaces importantes:**  
+- [Carpeta del proyecto](./tobiolife-analytics/)  
+- [Dashboards y análisis Power BI](./tobiolife-analytics/PBI/)  
+- [Informe final del proyecto](./tobiolife-analytics/Informe/)  
+- [Presentación final](./tobiolife-analytics/Presentacion/)  
+- [Scripts ETL en Python](./tobiolife-analytics/Data/tobiolife_etl/)
+
+---
+
 ### IT Academy Business Simulation – Sector Bancario
 
 **Escenario:** Prácticas profesionales – Simulador empresarial (IT Academy Bootcamp - Nivel III)  
@@ -43,7 +68,8 @@ El proyecto simuló un entorno empresarial real en el sector bancario, permitien
 **Rol de Ingrid Tobío:** Analista de Finanzas y Riesgo Crediticio (trabajo compartido con Barbara Junqueira)  
 
 **Descripción:**  
-Desarrollo de un flujo de análisis que soporta decisiones estratégicas en finanzas, marketing y perfil de clientes, incluyendo score de riesgo financiero, optimización de campañas y segmentación de clientes. Duración: 4 semanas.
+Desarrollo de un flujo de análisis que soporta decisiones estratégicas en finanzas, marketing y perfil de clientes, incluyendo score de riesgo financiero, optimización de campañas y segmentación de clientes. 
+**Duración:** 4 semanas.
 
 **Enfoques principales:**
 - **Finanzas y riesgo crediticio:** Score de riesgo financiero (mi área principal)  
@@ -61,31 +87,6 @@ Desarrollo de un flujo de análisis que soporta decisiones estratégicas en fina
 - [Notebooks financieros](./itacademy-business-simulation/Analysis/Finance/Notebooks/)
 - [Score de riesgo financiero](./itacademy-business-simulation/Analysis/Finance/Summaries)  
 
-
----
-
-### ToBio Life – Proyecto Final (IT Academy Bootcamp)
-
-**Escenario:** Proyecto final - Especialización (IT Academy Bootcamp - Nivel II)
-**Tema:** Análisis de operación piloto de ToBio Life  
-
-**Contexto:**  
-Proyecto individual basado en los dos primeros meses de operación de ToBio Life, una marca de productos artesanales y naturales, incluyendo modelado relacional y analítico, procesos ETL y visualización de resultados.
-
-**Descripción:**  
-Análisis de datos de operación piloto, construcción de modelos relacionales y analíticos, creación de dashboards en Power BI y generación de reportes.
-**Duración**: 2 semanas
-
-**Herramientas:** Python | SQL | Power BI | DAX
-
-**Licencia:** Proyecto académico (no comercial)
-
-**Enlaces importantes:**  
-- [Carpeta del proyecto](./tobiolife-analytics/)  
-- [Dashboards y análisis Power BI](./tobiolife-analytics/PBI/)  
-- [Informe final del proyecto](./tobiolife-analytics/Informe/)  
-- [Presentación final](./tobiolife-analytics/Presentacion/)  
-- [Scripts ETL en Python](./tobiolife-analytics/Data/tobiolife_etl/)
 
 ---
 
