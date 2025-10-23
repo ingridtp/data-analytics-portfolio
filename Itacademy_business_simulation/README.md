@@ -5,7 +5,7 @@ El proyecto simula un **entorno empresarial en el sector bancario**, donde el eq
 ## Roles del equipo
 
 - **Analista de Finanzas y Riesgo Crediticio**  
-  - Ingrid Tobío Pérez - [Linkedin]https://www.linkedin.com/in/ingrid-tobio/  
+  - Ingrid Tobío Pérez - [Linkedin](https://www.linkedin.com/in/ingrid-tobio/)  
   - Bárbara Junqueira –  [Linkedin](https://www.linkedin.com/in/junqueirabs/)
 
 - **Analista de Marketing y Comunicación**  
@@ -19,6 +19,7 @@ El proyecto simula un **entorno empresarial en el sector bancario**, donde el eq
 # Objetivos del proyecto
 
 ## Objetivo general
+
 Analizar datos de clientes, marketing y finanzas para **apoyar la toma de decisiones estratégicas** en un entorno bancario, generando insights accionables, dashboards y comunicando hallazgos claros.  
 
 El proyecto se desarrolló abordando una serie de **desafíos estratégicos** que guiaron el análisis y la toma de decisiones.
@@ -49,17 +50,20 @@ El proyecto se desarrolló abordando una serie de **desafíos estratégicos** qu
 # Estructura y nomenclatura
 
 ## Nomenclatura de archivos
+
 Para mantener consistencia en todo el proyecto, se siguen las siguientes normas:
 - **Carpetas:** primera letra en mayúscula, resto en minúscula. Ejemplo: Finance, Marketing, Customer.  
 - **Archivos:** todo en minúsculas, usando guiones bajos (_) para separar palabras y extensiones claras.
 
 ### Formato general para los archivos:
+
 Todos los archivos deben seguir el patrón: **banca_DD.MM_XX**
   Donde:
   - **DD.MM** → Fecha de inicio del desafío.  
   - **XX** → Descripción concisa del contenido o propósito del archivo.
 
 ### Fechas de inicio de los desafíos
+
 | Desafío | Fecha | Patrón de archivo |
 |---------|-------|-----------------|
 | Desafío 1 | 16/09 | banca_16.09_XX |
@@ -81,31 +85,31 @@ Todos los archivos deben seguir el patrón: **banca_DD.MM_XX**
   - Carpetas **por roles** (`Analysis/Finance`, `Analysis/Marketing`, `Analysis/Customer`) contienen análisis y resultados específicos de cada área.  
 
 Itacademy_business_simulation/
-├── [Analysis](./Analysis/)      # Trabajo de análisis de datos por área. Carpetas con primera letra en mayúscula, archivos en minúsculas.
-│   ├── [Finance](./Analysis/Finance/)       # Análisis de finanzas y riesgo crediticio.
-│   │   ├── [Diagrams](./Analysis/Finance/Diagrams/)     # Diagramas y visualizaciones financieras.
-│   │   ├── [Notebooks](./Analysis/Finance/Notebooks/)   # Notebooks de Python para análisis financiero.
-│   │   ├── [Pbix](./Analysis/Finance/Pbix/)             # Dashboards en Power BI de finanzas y riesgo crediticio.
-│   │   └── [Summaries](./Analysis/Finance/Summaries/)   # Resúmenes de construcción del score de riesgo y segmentación de clientes.
+├── [`Analysis/`](./Analysis/)                      # Trabajo de análisis de datos por área. Carpetas con primera letra en mayúscula, archivos en minúsculas.
+│   ├── [`Finance/`](./Analysis/Finance/)          # Análisis de finanzas y riesgo crediticio.
+│   │   ├── [`Diagrams/`](./Analysis/Finance/Diagrams/)        # Diagramas y visualizaciones financieras.
+│   │   ├── [`Notebooks/`](./Analysis/Finance/Notebooks/)      # Notebooks de Python para análisis financiero.
+│   │   ├── [`Pbix/`](./Analysis/Finance/Pbix/)                # Dashboards en Power BI de finanzas y riesgo crediticio.
+│   │   └── [`Summaries/`](./Analysis/Finance/Summaries/)      # Resúmenes de construcción del score de riesgo y segmentación de clientes.
 │   │
-│   ├── [Marketing](./Analysis/Marketing/) # Análisis de marketing y comunicación.
-│   │   ├── [Diagrams](./Analysis/Marketing/Diagrams/)   # Diagramas y visualizaciones de marketing.
-│   │   ├── [Notebooks](./Analysis/Marketing/Notebooks/) # Notebooks de Python para análisis de marketing.
-│   │   └── [Pbix](./Analysis/Marketing/Pbix/)           # Dashboards en Power BI de marketing.
+│   ├── [`Marketing/`](./Analysis/Marketing/)      # Análisis de marketing y comunicación.
+│   │   ├── [`Diagrams/`](./Analysis/Marketing/Diagrams/)      # Diagramas y visualizaciones de marketing.
+│   │   ├── [`Notebooks/`](./Analysis/Marketing/Notebooks/)    # Notebooks de Python para análisis de marketing.
+│   │   └── [`Pbix/`](./Analysis/Marketing/Pbix/)              # Dashboards en Power BI de marketing.
 │   │
-│   └── [Customer](./Analysis/Customer/) # Análisis del perfil de cliente.
-│       ├── [Animations](./Analysis/Customer/Animations/)   # Animaciones y visualizaciones dinámicas de clientes.
-│       ├── [Data_processed](./Analysis/Customer/Data_processed/) # Datos procesados para análisis de clientes.
-│       ├── [Notebooks](./Analysis/Customer/Notebooks/)     # Notebooks de Python para análisis del perfil de clientes.
-│       └── [Pbix](./Analysis/Customer/Pbix/)              # Dashboards en Power BI del perfil de clientes.
+│   └── [`Customer/`](./Analysis/Customer/)        # Análisis del perfil de cliente.
+│       ├── [`Animations/`](./Analysis/Customer/Animations/)   # Animaciones y visualizaciones dinámicas de clientes.
+│       ├── [`Data_processed/`](./Analysis/Customer/Data_processed/) # Datos procesados para análisis de clientes.
+│       ├── [`Notebooks/`](./Analysis/Customer/Notebooks/)     # Notebooks de Python para análisis del perfil de clientes.
+│       └── [`Pbix/`](./Analysis/Customer/Pbix/)              # Dashboards en Power BI del perfil de clientes.
 │
-├── [Data](./Data/)                             # Carpeta de datasets originales y procesados.
-│
-├── [Results](./Results/)                       # Carpeta de resultados finales.
-│   ├── [KPIs](./Results/KPIs/)                 # Indicadores clave de desempeño.
-│   ├── [Presentations](./Results/Presentations/) # Presentaciones de resultados generales.
-│
-└── [Scripts](./Scripts/)                       # Scripts de limpieza, transformación y análisis de datos.
+├── [`Data/`](./Data/)                            # Carpeta de datasets originales y procesados.
+├── [`Results/`](./Results/)                      # Carpeta de resultados finales.
+│   ├── [`KPIs/`](./Results/KPIs/)                # Indicadores clave de desempeño.
+│   └── [`Presentations/`](./Results/Presentations/) # Presentaciones de resultados generales.
+├── [`Scripts/`](./Scripts/)                      # Scripts de limpieza, transformación y análisis de datos.
+└── [`README.md`](./README.md)                    # Documentación general del proyecto.
+
 
 # Tecnología utilizada
 
@@ -118,6 +122,7 @@ El proyecto se desarrolló con herramientas orientadas al análisis de datos, vi
 - **Jupyter Notebooks**: desarrollo de análisis exploratorio y documentación del flujo de trabajo.
 
 # Guía de consulta rápida a carpetas mas relevantes
+
 - Abrir [`Analysis/`](./Analysis/) para revisar trabajo por área (trabajo por roles Finance, Marketing, Customer).  
   - [`Finance/`](./Analysis/Finance/) → Análisis de finanzas y riesgo crediticio. 
     - [`Pbix/`](./Analysis/Finance/Pbix/) → Dashboards en Power BI.   
@@ -137,6 +142,7 @@ El proyecto se desarrolló con herramientas orientadas al análisis de datos, vi
 - Consultar [`Data/`](./Data/) para ver datasets originales y procesados (trabajo conjunto de todo el equipo).
 
 # Licencia
+
 Este proyecto se distribuye bajo la licencia **MIT License**.  
 Esto permite que cualquier persona pueda usar, copiar, modificar y distribuir el proyecto, siempre citando al autor original.  
 
