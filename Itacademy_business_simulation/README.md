@@ -28,18 +28,18 @@ El proyecto se desarrolló abordando una serie de **desafíos estratégicos** qu
 
 ## Desafíos que guiaron el desarrollo
 
-- **Finance:**  
+- **Finanzas y riesgo crediticio:**  
   - ¿Cómo afectan los saldos bajos al riesgo de incumplimiento de crédito? ¿Qué ajustes de política de crédito se recomiendan?  
   - ¿Cómo afectan préstamos e hipotecas al saldo medio y al riesgo de incumplimiento?  
   - ¿Qué umbrales de saldo podrían indicar mayor riesgo de morosidad?  
   - **Aporte destacado:** Construcción de un **score de riesgo financiero** para priorizar estrategias de mitigación de riesgos.
 
-- **Marketing:**  
+- **Marketing y comunicación:**  
   - ¿Cuál es la relación entre el número de contactos realizados y la tasa de éxito? ¿Cómo optimizar la frecuencia de contacto?  
   - ¿Qué impacto tiene el tipo de contacto (móvil o telefónico) en la tasa de conversión?  
   - ¿Cómo influyen los días de la semana en la efectividad de las campañas? ¿Qué días deberían priorizarse para maximizar resultados?  
 
-- **Customer (Perfil del Cliente):**  
+- **Perfil del Cliente:**  
   - ¿Qué perfiles demográficos muestran más propensión a contratar productos financieros?  
   - ¿Qué diferencias existen en el comportamiento financiero entre los distintos segmentos demográficos?  
   - ¿Qué combinaciones de características demográficas (edad, nivel educativo, ocupación) son comunes entre clientes que utilizan múltiples productos financieros?  
@@ -89,6 +89,14 @@ Todos los archivos deben seguir el patrón: **banca_DD.MM_XX**
 
 ```
 Itacademy_business_simulation/
+├── Data/                         # Carpeta de datasets originales y procesados (trabajo conjunto)
+│
+├── Scripts/                      # Scripts de limpieza, transformación y análisis de datos (trabajo conjunto)
+│
+├── Results/                      # Resultados finales (KPIs y presentaciones)
+│   ├── KPIs/                     # Indicadores clave de desempeño
+│   └── Presentations/            # Presentaciones de resultados generales
+│
 ├── Analysis/                     # Trabajo de análisis de datos por área (Finance, Marketing, Customer)
 │   ├── Finance/
 │   │   ├── Diagrams/             # Diagramas y visualizaciones financieras
@@ -106,14 +114,6 @@ Itacademy_business_simulation/
 │       ├── Data_processed/       # Datos procesados para análisis de clientes
 │       ├── Notebooks/            # Notebooks de Python para análisis del perfil de clientes
 │       └── Pbix/                 # Dashboards en Power BI del perfil de clientes
-│
-├── Data/                         # Carpeta de datasets originales y procesados (trabajo conjunto)
-│
-├── Results/                      # Resultados finales (KPIs y presentaciones)
-│   ├── KPIs/                     # Indicadores clave de desempeño
-│   └── Presentations/            # Presentaciones de resultados generales
-│
-├── Scripts/                      # Scripts de limpieza, transformación y análisis de datos (trabajo conjunto)
 │
 ├── README.md                      # Documentación general del proyecto
 └── LICENSE                        # Licencia MIT del proyecto
