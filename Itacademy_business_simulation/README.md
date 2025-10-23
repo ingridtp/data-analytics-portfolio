@@ -1,6 +1,6 @@
 # Escenario profesional y roles
 
-El proyecto simula un **entorno empresarial en el sector bancario**, donde el equipo de análisis de datos trabaja para apoyar la toma de decisiones estratégicas sobre clientes, riesgos y marketing.
+El proyecto simula un **entorno empresarial en el sector bancario**, donde el equipo de análisis de datos trabaja para apoyar la toma de decisiones estratégicas sobre clientes, riesgos financieros y marketing.
 
 ## Roles del equipo
 
