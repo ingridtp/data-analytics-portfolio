@@ -2,70 +2,84 @@
 
 ## Contexto del evento
 
-Este análisis fue desarrollado en el marco del **Datató del Saló de l’Ocupació 2025** en Barcelona, organizado por **IT Academy de Barcelona Activa** junto a **Mobile World Capital Barcelona**, como parte del **Mobile World Congress**.  
+Este análisis se desarrolló en el marco del **Datató del Saló de l’Ocupació 2025** en Barcelona, organizado por **IT Academy de Barcelona Activa** junto a **Mobile World Capital Barcelona**, como parte del **Mobile World Congress**.  
 
-El evento tuvo lugar los días **15 y 16 de octubre de 2025**. Durante la primera jornada (**15 de octubre, de 9:00 a 19:00**), los participantes trabajaron en el desarrollo de los retos propuestos, seleccionando uno de los tres retos disponibles. Nuestro equipo decidió abordar **el Reto 3**, centrado en el análisis de consumo de agua y presión hídrica en el Área Metropolitana de Barcelona.
+El evento tuvo lugar los días **15 y 16 de octubre de 2025**. Durante la primera jornada (**15 de octubre, de 9:00 a 19:00**), los participantes trabajaron en el desarrollo de los retos propuestos, seleccionando uno de los tres disponibles. Nuestro equipo abordó **el Reto 3**, centrado en el análisis de consumo de agua y presión hídrica en el Área Metropolitana de Barcelona.
 
 ---
 
 # Reto 3: Consumo de Agua y Presión Hídrica en el Área Metropolitana de Barcelona
 
 ## Tópico: Medio ambiente y sostenibilidad
+
 ## Agenda 2030: ODS 6 – Agua limpia y saneamiento | ODS 13 – Acción por el clima
 
-## Descripción:
+## Descripción
 
-El agua es un recurso natural fundamental para el bienestar de la población, el funcionamiento de la economía y la sostenibilidad ambiental. Sin embargo, en las ciudades, el consumo de agua se ha mantenido elevado o incluso en aumento, a pesar de una mayor concienciación ciudadana y de las campañas de ahorro.
+El agua es un recurso natural fundamental para el bienestar de la población, el funcionamiento de la economía y la sostenibilidad ambiental. Sin embargo, en las ciudades, el consumo de agua se ha mantenido elevado o incluso en aumento, a pesar de campañas de ahorro y concienciación ciudadana.
 
-En un contexto de cambio climático, con períodos de sequía más prolongados, temperaturas más altas y precipitaciones más irregulares, esta situación genera una presión cada vez más intensa sobre el sistema hídrico.
+En un contexto de cambio climático, con sequías más prolongadas, temperaturas más altas y precipitaciones irregulares, esta situación genera una presión cada vez más intensa sobre el sistema hídrico.  
 
-El Área Metropolitana de Barcelona es un claro ejemplo de esta tensión: alta densidad de población, intensa actividad económica y un uso extensivo del recurso hídrico en todos los sectores.
+El Área Metropolitana de Barcelona es un ejemplo de esta tensión: alta densidad de población, intensa actividad económica y un uso extensivo del recurso hídrico en todos los sectores.  
 
-Los patrones de consumo varían mucho según el momento del día, la estación del año, el tipo de uso (doméstico, comercial o industrial) y el contexto climático. Esto dificulta identificar con claridad dónde y cuándo se producen usos excesivos o ineficientes que podrían corregirse mediante medidas específicas.
+Los patrones de consumo varían según el momento del día, la estación, el tipo de uso (doméstico, comercial o industrial) y el contexto climático, dificultando la identificación de consumos excesivos o ineficientes.
 
-## Objetivo y entrega de datos:
+## Objetivo y entrega de datos
 
-¿Cómo se distribuye el consumo de agua en el Área Metropolitana de Barcelona en función del tipo de uso, la estación del año, el momento del día y las condiciones ambientales?
+Analizar cómo se distribuye el consumo de agua en el Área Metropolitana de Barcelona según tipo de uso, estación, momento del día y condiciones ambientales.  
+Se busca identificar zonas y períodos con consumos elevados o ineficientes, generar indicadores clave y proponer recomendaciones para una mejor gestión hídrica.
 
-A partir de los datos disponibles, identifica zonas y períodos con consumos elevados o ineficientes, construye indicadores clave para su seguimiento, y propone recomendaciones para una mejor gestión del recurso hídrico.
+## Bases de datos sugeridas
 
-## Bases de datos sugeridas:
-
-1. [Datos de consumo de agua](https://www.abdatachallenge.cat/) en la ciudad de Barcelona proporcionados por Aigües de Barcelona (es necesario registrarse para obtener los datos).
-
-2. Este [enlace](https://aca.gencat.cat/ca/laigua/consulta-de-dades/dades-obertes/cataleg-dades-obertes/) dirige al Catálogo de Datos Abiertos de la Agencia Catalana del Agua (ACA), donde se pueden consultar y descargar diversos conjuntos de datos relacionados con la gestión del agua en Cataluña.
-
-3. [Datos climatológicos](https://www.aemet.es/ca/serviciosclimaticos/datosclimatologicos) de AEMET (Agencia Estatal de Meteorología).
+1. [Datos de consumo de agua](https://www.abdatachallenge.cat/) en la ciudad de Barcelona proporcionados por Aigües de Barcelona (registro requerido).  
+2. [Catálogo de Datos Abiertos de ACA](https://aca.gencat.cat/ca/laigua/consulta-de-dades/dades-obertes/cataleg-dades-obertes/) para datos sobre gestión hídrica en Cataluña.  
+3. [Datos climatológicos de AEMET](https://www.aemet.es/ca/serviciosclimaticos/datosclimatologicos).
 
 ---
 
 # Desarrollo
 
-Análisis descriptivo del consumo de agua en el Área Metropolitana de Barcelona durante 2023, evaluando patrones según el tipo de uso (doméstico, comercial e industrial) y facilitando su visualización en Power BI.
+Análisis descriptivo del consumo de agua en 2023 en el Área Metropolitana de Barcelona, evaluando patrones según el tipo de uso (doméstico, comercial e industrial) y facilitando su visualización en Power BI.
 
-## Bases de datos usadas
+## Dataset
 
-- **Consumo de agua 2023 (Barcelona)**: 
-Dataset de Aigües de Barcelona ([ver archivo](https://github.com/cvilafer/Datato_Equipo1_Reto3/blob/main/Consumo_agua.parquet)), exportado a  CSV para su análisis y visualización en Power BI.
-
-- **Embalses de Cataluña 2020-2023 (ACA)**: Gráficos del estado de los embalses para analizar la evolución de la sequía.
+- **Consumo de agua 2023 (Barcelona)**: Dataset de Aigües de Barcelona disponible en [Parquet](https://raw.githubusercontent.com/ingridtp/data-analytics-portfolio/main/Employment-fair-datathon-2025/Data/Consumo_agua.parquet) y [CSV](https://raw.githubusercontent.com/ingridtp/data-analytics-portfolio/main/Employment-fair-datathon-2025/Data/Consumo_agua.csv), para su análisis y visualización en Power BI.
 
 ## Campos del dataset principal
 
-| Campo original | Nombre usado | Descripción |
-|----------------|-------------|------------|
-| Secció censal / Census section | **Censo** | Sección censal |
-| Districte / District | **Distrito** | Distrito del consumo |
-| Municipi / Municipality | **Municipio** | Municipio del consumo |
-| Data / Date | **Fecha** | Fecha del consumo |
-| Ús / Use | **Uso** | Tipo de uso: Industrial / Comercial / Doméstico |
-| Nombre de comptadors / Number of meters | **Número de contadores** | Número de contadores registrados |
-| Consum acumulat (L/dia) / Accumulated consumption | **Consumo acumulado (L/día)** | Consumo diario acumulado en litros |
+| Campo original            | Nombre usado             | Descripción                                  |
+|---------------------------|-------------------------|---------------------------------------------|
+| Secció censal             | **Censo**               | Sección censal                              |
+| Districte                 | **Distrito**            | Distrito del consumo                         |
+| Municipi                  | **Municipio**           | Municipio del consumo                        |
+| Data                      | **Fecha**               | Fecha del consumo                            |
+| Ús                        | **Uso**                 | Tipo de uso: Industrial / Comercial / Doméstico |
+| Nombre de comptadors      | **Número de contadores**| Número de contadores registrados            |
+| Consum acumulat (L/dia)  | **Consumo acumulado (L/día)** | Consumo diario acumulado en litros      |
 
+## Herramientas usadas
 
-## Herramientas usadas para análisis:
+- Power BI  
+- Python
 
-Power BI, Python
+## Estructura
+```
+Employment-fair-datathon-2025/
+├── Data/                         # Carpeta de datasets originales y procesados
+│   ├── Consumo_agua.parquet      # Dataset original en formato Parquet
+│   ├── Consumo_agua.csv          # Exportación a CSV del dataset
+│
+├── analysis/                      # Archivos de análisis y visualización de datos
+│   └── Analisis_consumo_agua.pbix       # Archivo de Power BI con dashboards y análisis
+│
+├── scripts/                       # Scripts en Python para procesamiento y transformación de datos
+│   └── convertir_fichero_parquet_a_csv.py  # Script para convertir el archivo Parquet a CSV
+│
+├── README.md                       # Documentación principal del proyecto, incluye contexto, desarrollo y resultados
+└── LICENSE                         # Licencia del proyecto (por ejemplo, MIT)
+
+```
+
 
 ## Conclusiones datos analizados:
 
