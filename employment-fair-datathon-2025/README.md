@@ -47,8 +47,6 @@ Análisis descriptivo del consumo de agua en 2023 en el Área Metropolitana de B
 
 ## Campos del dataset principal
 
-## Campos del dataset principal
-
 | Campo original                             | Nombre usado             | Descripción                                  |
 |-------------------------------------------|-------------------------|---------------------------------------------|
 | Secció censal / Sección censal / Census section | **Censo**               | Sección censal                              |
