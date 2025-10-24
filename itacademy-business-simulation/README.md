@@ -154,6 +154,19 @@ El proyecto se desarrolló con herramientas orientadas al análisis de datos, vi
 
 ---
 
+## 👥 Autoría
+
+- Ingrid Tobío Pérez – [LinkedIn](https://www.linkedin.com/in/ingrid-tobio/)  
+- Bárbara Junqueira – [LinkedIn](https://www.linkedin.com/in/junqueirabs/)
+- Carlos Moreno García – [LinkedIn](https://www.linkedin.com/in/morenogarciacarlos/)  
+- Pau León Ozón – [LinkedIn](https://www.linkedin.com/in/pauleonozon/)  
+- Favila Valdés-Bango Martín – [LinkedIn](https://www.linkedin.com/in/favila-vald%C3%A9s-bango-mart%C3%ADn-9ab146271/)  
+- Maeloc Valdés Moutinho – [LinkedIn](https://www.linkedin.com/in/maeloc-valdes/)  
+
+- **Mentora:** Verónica Figueroa – [LinkedIn](https://www.linkedin.com/in/ver%C3%B3nica-figueroa-projectmanager/)
+
+---
+
 # Licencia
 
 Este proyecto se distribuye bajo la licencia **MIT License**.  

@@ -7,36 +7,48 @@ Este repositorio documenta el desarrollo del proyecto final de la especializaci�
 ## 📁 Estructura del Repositorio
 
 ```
-├── Data/
-│   ├── tobiolife_data/
-│   │   └── Datos crudos (.csv)
+│   ├── Data/                     # Datos y procesos ETL
+│   │   ├── tobiolife_data/       # Datos crudos (.csv)
+│   │   │
+│   │   ├── tobiolife_operacional/       # Modelo relacional operativo
+│   │   │   ├── Scripts SQL (.sql)       # Scripts SQL del modelo operativo
+│   │   │   └── Diagrama ER (.png)       # Diagrama entidad-relación
+│   │   │
+│   │   ├── tobiolife_analytics/         # Modelo estrella analítico
+│   │   │   ├── Scripts SQL (.sql)       # Scripts SQL del modelo operativo
+│   │   │   └── Diagrama estrella (.png) # Diagrama del modelo estrella
+│   │   │
+│   │   └── tobiolife_etl/               # Proceso ETL
+│   │       └── Scripts Python (.ipynb)  # Notebook con scripts ETL en Python
 │   │
-│   ├── tobiolife_operacional/
-│   │   ├── Scripts SQL para el modelo relacional operativo (.sql)
-│   │   └── Modelo entidad-relación (.png)
+│   ├── PBI/                             # Dashboards y análisis Power BI
+│   │   ├── Sprint 10.pbix               # Dashboard Power BI con visualizaciones
+│   │   ├── Sprint 10 - Medidas Dax.pdf  # Documento con cálculos DAX
+│   │   └── Sprint 10 - Gráficas PBI.pdf # Documento con visualizaciones e insights
 │   │
-│   ├── tobiolife_operacional/
-│   │   ├── Scripts SQL para el modelo relacional operativo (.sql)
-│   │   └── Modelo entidad-relación (.png)
+│   ├── Informe/                          # Informe final del proyecto
+│   │   └── Informe (.pdf)
 │   │
-│   ├── tobiolife_analytics/
-│   │   ├── Scripts SQL para el modelo estrella analítico (.sql)
-│   │   └── Diagrama del modelo estrella (.png)
-│   │
-│   └── tobiolife_etl/
-│       └── Scripts en Python para el proceso ETL (.ipynb)
+│   └── Presentacion/                     # Presentación final del proyecto
+│       └── Presentación (.pdf)
 │
-├── PBI/
-│   ├── Archivo Power BI (.pbix)
-│   ├── Documento con cálculos DAX (.pdf)
-│   └── Documento de visualizaciones y hallazgos (.pdf)
-│
-├── Informe/
-│   └── Informe final del proyecto (.pdf)
-│
-└── Presentacion/
-    └── Presentación de exposición final (.pdf)
+├── README.md                     
 ```
+
+---
+
+## 📌 Enlaces de interés
+
+- **Revisar los datos y procesos ETL:** [Datos/](https://github.com/ingridtp/data-analytics-portfolio/tree/main/itacademy-specialization-capstone/Datos)  
+  - Consulta el modelo relacional operativo: [tobiolife_operacional/](https://github.com/ingridtp/data-analytics-portfolio/tree/main/itacademy-specialization-capstone/Datos/tobiolife_operacional)  
+  - Explora el modelo analítico: [tobiolife_analytics/](https://github.com/ingridtp/data-analytics-portfolio/tree/main/itacademy-specialization-capstone/Datos/tobiolife_analytics)  
+
+- **Explorar dashboards e indicadores en Power BI:** [PBI/](https://github.com/ingridtp/data-analytics-portfolio/tree/main/itacademy-specialization-capstone/PBI)  
+
+- **Leer el informe final del proyecto:** [Informe/](https://github.com/ingridtp/data-analytics-portfolio/tree/main/itacademy-specialization-capstone/Informe)  
+
+- **Ver la presentación final:** [Presentación/](https://github.com/ingridtp/data-analytics-portfolio/tree/main/itacademy-specialization-capstone/Presentación)
+
 
 ---
 
@@ -75,27 +87,27 @@ git clone https://github.com/tu-usuario/tobiolife-analytics.git
 
 ---
 
-## 📄 Documentos adicionales
+## 👥 Autoría
 
-- 📘 **Informe final del proyecto**: `/Informe/`
-- 📈 **Dashboards y DAX**: `/PBI/`
-- 🗅️ **Presentación final**: `/Presentacion/`
-
----
-
-## 👥 Autores
-
-- **Autora**: Ingrid Tobío Pérez – `@ingridtpGitHub`
-- **Mentora**: Alana Oliveri
-
----
+- **Autora:** Ingrid Tobío Pérez  
+- **Mentora:** Alana Oliveri
 
 ## 📬 Contacto
 
-Para dudas o sugerencias, puedes contactarme a: ingrid.tobio@gmail.com
+- Email: ingrid.tobio@gmail.com  
+- GitHub: [@ingridtp](https://github.com/ingridtp)  
+- LinkedIn: [Ingrid Tobío Pérez](https://www.linkedin.com/in/ingrid-tobio/)
 
 ---
 
-## 📋 Licencia
+## 📋 Licencia y Condiciones de Uso
 
-Este repositorio es parte de un proyecto académico y no está licenciado para fines comerciales.
+Este proyecto es académico y todos los materiales incluidos se encuentran bajo la licencia MIT, permitiendo el uso, copia, modificación y distribución del código y documentación con atribución al autor original.
+
+**Condiciones específicas para los datos:**
+
+- Los datasets incluidos en tobiolife_data son únicamente para fines académicos y de aprendizaje.
+- No se permite redistribuir los archivos originales (.csv, bases de datos SQL, Power BI) a terceros sin autorización explícita.
+- El uso externo de los datos debe respetar los términos de los proveedores originales cuando corresponda.
+- Los notebooks y archivos Power BI son de referencia educativa y de práctica.
+- Cualquier uso fuera del contexto académico requiere permiso explícito del autor.

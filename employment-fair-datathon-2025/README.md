@@ -81,6 +81,7 @@ Employment-fair-datathon-2025/
 └── LICENSE                         # Licencia del proyecto (por ejemplo, MIT)
 
 ```
+
 ## Guía rápida del archivo Power BI
 
 El análisis de consumo de agua en el Área Metropolitana de Barcelona está disponible en el archivo de Power BI: [Analisis_consumo_agua.pbix](analysis/Analisis_consumo_agua.pbix)
@@ -108,6 +109,21 @@ El análisis de los datos en Power BI ([ver archivo](analysis/Analisis_consumo_a
 - **Impacto de la sequía y medidas aplicadas**: Se observa una caída notable del consumo doméstico en abril de 2023, coincidiendo con la entrada en vigor de medidas excepcionales de ahorro de agua ([fuente](https://www.totbarcelona.cat/es/sociedad/los-hogares-de-barcelona-reducen-el-consumo-agua-en-plena-sequia-438255/)).
 
 > Estas conclusiones corresponden al análisis descriptivo. Para un **diagnóstico más profundo**, se recomienda cruzar con otros datos (climáticos, demográficos, industriales) para asociar posibles causas. De manera preliminar, los patrones observados se pueden relacionar con la aplicación de las medidas de abril 2023.
+
+---
+
+## 👥 Autoría
+
+- **Autora:** Ingrid Tobío Pérez  
+- **Mentora:** Alana Oliveri
+
+## 📬 Contacto
+
+- Email: ingrid.tobio@gmail.com  
+- GitHub: [@ingridtp](https://github.com/ingridtp)  
+- LinkedIn: [Ingrid Tobío Pérez](https://www.linkedin.com/in/ingrid-tobio/)
+
+---
 
 ## Licencia y condiciones de uso
 

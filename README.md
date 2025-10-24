@@ -128,6 +128,12 @@ data-analytics-portfolio/
 
 ---
 
+### 📚 Repositorio complementario 
+
+Este portafolio se complementa con el repositorio docente **[IT Academy – Especialización en Análisis de Datos](https://github.com/ingridtp/itacademy)**, que recopila los materiales y entregables académicos de los distintos *sprints* desarrollados durante la **Especialización (Nivel II)** del Bootcamp de Data Analytics de la IT Academy.  
+
+---
+
 ## Licencia y condiciones de uso
 
 **Licencia general:**  
