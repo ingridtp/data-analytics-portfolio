@@ -27,11 +27,11 @@ Análisis de datos de operación piloto, construcción de modelos relacionales y
 **Licencia:** Proyecto académico (no comercial)
 
 **Enlaces importantes:**  
-- [Carpeta del proyecto](./tobiolife-analytics/)  
-- [Dashboards y análisis Power BI](./tobiolife-analytics/PBI/)  
-- [Informe final del proyecto](./tobiolife-analytics/Informe/)  
-- [Presentación final](./tobiolife-analytics/Presentacion/)  
-- [Scripts ETL en Python](./tobiolife-analytics/Data/tobiolife_etl/)
+- [Carpeta del proyecto](./itacademy-specialization-capstone/)  
+- [Dashboards y análisis Power BI](./itacademy-specialization-capstone/PBI/)  
+- [Informe final del proyecto](./itacademy-specialization-capstone/Informe/)  
+- [Presentación final](./itacademy-specialization-capstone/Presentacion/)  
+- [Scripts ETL en Python](./itacademy-specialization-capstone/Data/tobiolife_etl/)
 
 ---
 
