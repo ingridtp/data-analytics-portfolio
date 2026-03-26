@@ -30,8 +30,8 @@ Análisis de datos de operación piloto, construcción de modelos relacionales y
 - [Carpeta del proyecto](./itacademy-specialization-capstone/)  
 - [Dashboards y análisis Power BI](./itacademy-specialization-capstone/PBI/)  
 - [Informe final del proyecto](./itacademy-specialization-capstone/Informe/)  
-- [Presentación final](./itacademy-specialization-capstone/Presentacion/)  
-- [Scripts ETL en Python](./itacademy-specialization-capstone/Data/tobiolife_etl/)
+- [Presentación final](./itacademy-specialization-capstone/Presentación)  
+- [Scripts ETL en Python](./itacademy-specialization-capstone/Datos/tobiolife_etl/)
 
 ---
 
